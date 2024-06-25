@@ -11,9 +11,9 @@ export const routesByRole = {
   "1": [
     { name: "Inicio", path: "/Inicio" },
     { name: "Usuarios", path: "/AdminRe" },
-    
+    { name: "Agenda", path: "/Agenda" },
+     
     { name: "Solicitudes", path: "/AdminSol" }, 
-   
     { name: "Preguntas", path: "/Preguntas" },
     { name: "Mapa", path: "/Mapa" },
     { name:"Salir", path:"/Logout"}
@@ -30,6 +30,7 @@ export const routesByRole = {
       ],
     },
  
+    { name: "Evidencias", path: "/Evidencias" },
     { name: "¿Quiénes somos?", path: "/Quien" },
     { name: "Preguntas", path: "/Preguntas" },
     { name: "Mapa", path: "/Mapa" },
@@ -37,15 +38,17 @@ export const routesByRole = {
 
   ],
   "3": [
-    { name: "Inicio", path: "/Inicio" }, 
-
+    { name: "Inicio", path: "/Inicio" },
     {
       name: "Salud",
       submenu: [
         { name: "Registro", path: "/Salud" },
         { name: "Datos de salud", path: "/SaludDatos" }, 
+        { name:"Reportes", path:"/ReSalud"},
       ],
     } ,
+    
+    { name: "Evidencias", path: "/Evidencias" },
     {
       name: "Alumnos",
       submenu: [

@@ -40,6 +40,9 @@ import ProtectedRoute from "./PreotectedRote";
 
 import Unauthorized from "./views/Unauthorized"; 
 
+import{Evidencias} from "./views/Evidencias";
+
+import{Agenda} from "./views/Agenda";
  
 // Componente ScrollToTop
 const ScrollToTop = () => {
@@ -186,6 +189,16 @@ const router = createBrowserRouter([
     path: "/unauthorized",
     element: <Unauthorized />,
   },
+  {
+    path: "/Evidencias",
+    element: <Evidencias />,
+     
+  },
+  {
+    path: "/Agenda",
+    element: <Agenda />,
+     
+  }
    
 ]);
 
